@@ -32,7 +32,6 @@ body{
 	width : 100%;
 	height: 100px;
 	position: relative;
-	color:white;
 	background-color: #f5f2f2;
 }
 
@@ -60,7 +59,7 @@ body{
 	background-color: #436a7b;
 	heigh: 30px;
 	width: 100px;
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
