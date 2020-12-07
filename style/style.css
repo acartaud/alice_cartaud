@@ -209,7 +209,7 @@ a {
         margin-bottom: 40px; 
         border-radius: 25px;
         width: 90%;
-        min-width: 400px;
+        min-width: 350px;
         break-inside: avoid;
         -webkit-column-break-inside: avoid;
     }
