@@ -35,7 +35,7 @@ a {
 }
 
 .vertical_bar {
-    width: 250px; /**/
+    width: 300px; /**/
     background: #334252;
     height: 100%;
     /*border-top-left-radius: 25px;
@@ -145,7 +145,7 @@ a {
 .main_container {
     width: calc(100% - 20px);
     position: relative;
-    margin-left: 280px; /*vertical bar width*/
+    margin-left: 300px; /*vertical bar width*/
 }
 
     .main_container .top_bar {
@@ -209,7 +209,7 @@ a {
         margin-bottom: 40px; 
         border-radius: 25px;
         width: 90%;
-        min-width: 300px;
+        min-width: 320px;
         break-inside: avoid;
         -webkit-column-break-inside: avoid;
     }
