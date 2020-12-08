@@ -41,7 +41,7 @@ a {
     position: fixed;
 }
 
-    .vertical_bar .spacings {
+     .spacings {
         height: 20px;
     }
 
@@ -319,7 +319,7 @@ a {
         }
 }
 @media (max-height: 700px) {
-    .vertical_bar .spacings {
+    .spacings {
         height: 0px;
     }
     .vertical_bar .profile_info img {
