@@ -43,11 +43,11 @@ a {
 
     .vertical_bar .profile_info {
         text-align: center;
-        padding: 50px 25px;
+        padding: 15%; /*50px 25px;*/
     }
 
         .vertical_bar .profile_info img {
-            width: 75px;
+            width: 80px;
         }
 
         .vertical_bar .profile_info .title {
@@ -55,7 +55,7 @@ a {
             letter-spacing: 2px;
             color: #ae937a;
             font-weight: 700;
-            padding-top: 10px;
+            padding-top: 10%; /*10px;*/
         }
 
         .vertical_bar .profile_info .sub_title {
@@ -70,7 +70,7 @@ a {
 
         .vertical_bar .menu li a {
             display: block;
-            padding: 15px;
+            padding: 5%; /* 15px;*/
             font-size: 14px;
             text-transform: uppercase;
             color: #fff;
@@ -97,6 +97,10 @@ a {
         display: flex;
         justify-content: center;
         padding-top: 10%;
+
+        /*padding-top: 50px; moi
+        position: absolute;
+        bottom: 50px;*/
     }
 
         .vertical_bar .social_l1 li a {
