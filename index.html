@@ -13,13 +13,19 @@
             <div class="vertical_wrap">
                 <div class="backdrop"></div>
                 <div class="vertical_bar">
+                    <p class="spacings"></p> <!-- spacings-->
+                    <p class="spacings"></p> <!-- spacings-->
                     <div class="profile_info">
                         <div class="img_holder">
                             <img src="files/pic.png" alt="profile_pic">
                         </div>
+                        <p class="spacings"></p> <!-- spacings-->
+
                         <p class="title"> Alice CARTAUD </p>
                         <a href="mailto:cartaud.alice@gmail.com" style="color:#fff">cartaud.alice@gmail.com</a>
                     </div>
+                    <p class="spacings"></p> <!-- spacings-->
+
                     <ul class="menu">
                         <li>
                             <a href="index.html" class="active">
@@ -70,6 +76,9 @@
                             </a>
                         </li>
                     </ul>
+                    <p class="spacings"></p> <!-- spacings-->
+                    <p class="spacings"></p> <!-- spacings-->
+
                     <ul class="social_l1">
                         <li>
                             <a href="https://scholar.google.com/citations?user=mkzYFXoAAAAJ&hl=fr&oi=ao" target="_blank" title="google scholar">
@@ -124,6 +133,10 @@
                             <br />
                             <p>
                                 French PhD student in Psychology <br><br>
+                                Under the supervision of Prof.
+                                <span class="listing_subtitle">
+                                    Yann COELLO
+                                </span><br /><br />
                                 SCALAB UMR CNRS 9193<br><br><br><br>
                                 <strong>Address:</strong>  SCALab, Université Lille SHS, Domaine Universitaire Pont de Bois <br><br>
                                 BP 60149, 59653 Villeneuve D'Ascq Cedex, FRANCE <br><br>
@@ -155,11 +168,8 @@
                                 I'll defend my PhD thesis on
                                 <span class="listing_subtitle">
                                     January 19<sup>th</sup>, 2021
-                                </span><br />
-                                Under the supervision of Prof.
-                                <span class="listing_subtitle">
-                                    Yann COELLO
-                                </span><br /><br />
+                                </span><br /></br>
+
                                 <span class="listing_subtitle">Title: </span>
                                 Interrelation between the sensorimotor and emotional components of social space: behavioral and psychophysiological evidence
                             </p>
@@ -168,21 +178,21 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <script>
 
-        var menu_icon = document.querySelector(".menu_icon");
-        var wrapper = document.querySelector(".wrapper");
-        var backdrop = document.querySelector(".backdrop");
+        <script>
 
-        menu_icon.addEventListener("click", function () {
-            wrapper.classList.add("active");
-        })
+            var menu_icon = document.querySelector(".menu_icon");
+            var wrapper = document.querySelector(".wrapper");
+            var backdrop = document.querySelector(".backdrop");
 
-        backdrop.addEventListener("click", function () {
-            wrapper.classList.remove("active");
-        })
-    </script>
+            menu_icon.addEventListener("click", function () {
+                wrapper.classList.add("active");
+            })
+
+            backdrop.addEventListener("click", function () {
+                wrapper.classList.remove("active");
+            })
+        </script>
 </body>
 </html>
