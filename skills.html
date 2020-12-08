@@ -29,7 +29,7 @@
                                 </span>
                                 <span class="text">Home</span>
                             </a>
-                        </li> 
+                        </li>
                         <li>
                             <a href="publi.html">
                                 <span class="icon">
@@ -104,7 +104,7 @@
             </div>
             <div class="main_container">
                 <div class="top_bar">
-                    <div class="hamburger">
+                    <div class="menu_icon">
                         <i class="fas fa-bars"> </i>
 
                     </div>
@@ -317,11 +317,11 @@
 
     <script>
 
-        var hamburger = document.querySelector(".hamburger");
+        var menu_icon = document.querySelector(".menu_icon");
         var wrapper = document.querySelector(".wrapper");
         var backdrop = document.querySelector(".backdrop");
 
-        hamburger.addEventListener("click", function () {
+        menu_icon.addEventListener("click", function () {
             wrapper.classList.add("active");
         })
 
